@@ -17,7 +17,7 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
     - name: Format code # Outputs the correctly formatted code
       uses: DoozyX/clang-format-lint-action@v0.18 
